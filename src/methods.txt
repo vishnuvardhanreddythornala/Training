@@ -1,0 +1,21 @@
+methods - it is block of statements used to perform a specific task
+to use specific task
+
+access modifier/specifier
+return type of method
+name of method
+
+public static void powerbutton(){
+	//satements
+	sout("Screen on")
+	sout("screen off")
+}
+
+-- method can created only in global area.
+-- method create n number of methods in one class
+-- method is executed only when called
+-- one method can be called n numbers of time
+
+we have 2 types of methods
+1. no argument method - a method which does not have formal arguments.
+2. parameterized method-a method which have formal arguments.

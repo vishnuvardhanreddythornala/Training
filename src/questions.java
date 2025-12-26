@@ -1,0 +1,281 @@
+/*
+ * 1. WAJP to check the given number is even or odd.
+2. WAJP to check the given number is divisible by 7 or not.
+3. WAJP to check the given number is divisible by 3 and 5 or not.
+4. WAJP to check the character is vowel or consonant. 
+5. WAJP to check the given character is digit or not.
+6. WAJP to check the given character is uppercase character, lowercase character, 
+	digit or special character.v
+7. Write a Java program to calculate and display the grade of a student based on the 
+	marks obtained.
+
+	Marks ≥ 90 → Grade A
+	Marks ≥ 75 and < 90 → Grade B
+	Marks ≥ 60 and < 75 → Grade C
+	Marks ≥ 40 and < 60 → Grade D
+	Marks < 40 → Fail
+
+	If marks are invalid, print "Invalid Marks"	
+8. WAJP to check the given character is uppercase vowel , uppercase consonant, 
+	Lowercase vowel or Lowercase consonant.	
+9. WAJP to check the given number is negative number, positive number or zero.
+10. WAJP to find Max number from the three number.
+11. WAJP to fin Min number from the three numbers.
+12. Write a program to check day type:
+	If input is valid day
+		If Saturday or Sunday → Weekend
+		Else → Weekday
+	Else → Invalid day
+	
+13. Write a program to check leap year, and if leap year,
+	A leap year:
+	Divisible by 400 
+	OR divisible by 4 but not by 100
+
+14. "apple" : Apples are rich in fiber and vitamin C.
+ 	"banana" : Bananas are a great source of potassium.
+ 	"mango" : Mangoes are the king of fruits!
+ 	"orange" : Oranges are packed with vitamin C.
+ 	"others" : Sorry, I don't have information about that fruit.
+
+
+15. Create a program that takes a student's mark as input (A, B, C, D, F) 
+	and uses a switch statement to print the corresponding message:
+
+	A: Excellent
+	B: Good
+	C: Fair
+	D: Pass
+	F: Fail
+
+16. WAJP to perform Arithmetic operations using switch and user choice.
+	addition
+		add 2 variable
+		add 3 variable
+		add 4 variable
+	subtraction
+		sub 2 variable
+		sub 3 variable
+		sub 4 variable
+	multiplication
+		mul 2 variable
+		mul 3 variable
+		mul 4 variabl
+	division
+		divide 2 variable
+		
+17. WAJP to display an employees designation based on the department and
+	role selected by user.
+	
+	IT
+		Developer
+		Tester
+		DevOps Engineer
+	HR
+		Recruiter
+		HR executive
+		Payroll Officer
+	Finance
+		Accountant
+		financial Analyst
+		Auditor
+	Operations
+		Operation Executive
+		Team Lead
+		Manager
+
+18. WAJP to perform area calculation
+	circle
+	rectangle
+	triangle
+	square
+19. Assessment 1
+20. Assessment 2
+21. WAJP to print numbers from the range 
+	-123 to -129
+	79 to 84
+	-110 to - 100
+	0 to -9
+	by using while loop.
+22. WAJP to print characters from the range
+	A to M
+	x to m
+	by using while loop
+23. WAJP to print numbers from the range
+	-111 to -101
+  	123 to 113
+  	5 to -5 
+  	-10 to 0
+  	by using do while loop
+24. WAJP to print characters from the range
+ 	s to l
+ 	T to Z
+ 	by using do while loop.
+ 	
+25. When we use while loop.
+26. when we use do while loop.
+27. When we use for loop.
+28. WAJP to print numbers from the range 
+	1111 to 1121
+	1234 to 1223
+	-1111 to -1121
+	- 1234 to -1223
+	by using for loop.
+29. WAJP to print characters from the range 
+	d to j
+	m to e
+	z to t
+	r to x
+	by using for loop.
+30. Output for this code
+
+	int a = 5;
+	int b = 10;
+	if ((a = 3) == b )
+	{
+		System.out.println(a);
+	}
+	else {
+		System.out.println(a + b);
+	}
+	
+31. Write the output
+	
+	boolean a = true;
+	boolean b = false;
+	boolean c = a || b && !a
+	System.out.println(c);
+	
+	
+	true || false && !(true)
+	true || false && false
+	true || false
+	true
+	
+	
+32. WAP to check the given character is 
+	uppercase vowel
+	uppercase consonant
+	lowercase vowel
+	lowercase consonant
+	if the given character is uppercase vowel, print numbers from the range 10 to 20 using 
+	do while loop
+	if the given character is lowercase vowel, print numbers from the range -10 to -20 
+	using while loop
+	if the given character is uppercase consonant, print numbers from the range 25 to 15 
+	using for loop
+	if the given character is lowercase consonant, print numbers from the range -25 to -15 
+	using for loop
+
+33. WAJP to print even numbers from the range 1 to 20.
+34. WAJP to print numbers which are divisible by 7 from the range 100 to 50
+35. WAJP to print Sum of all the numbers from the range 1 to 10.
+36. WAJ to print Product of all the numbers from the range 1 to 10.
+37. FizzBuzz
+38. WAJP to print factors of a given numbers	
+39. WAJP to check the given number is prime number or not.
+40. WAJP to print prime numbers from the range 20 to 1.
+41. WAJP to print number of prime numbers present in the range 
+42. WAJP to check the given number is perfect number or not 
+43. WAJP to print perfect numbers from the range 1 to 100.
+45. WAJP to print factorial of a given number.
+46. WAJP to print factorial of all numbers from the range 1 to 10.
+47. WAJP to print factorial of all odd numbers from the range 10 to 1.
+48. WAJP to print factorial of all prime numbers from the range 14 to 5.
+49. WAJP to print addition of all prime numbers from the range 32 to 50.
+50. WAJP to swap two variables using third variable
+51. WAJP to swap two variables without using third variable
+52. Write a Java method clockProblem(int input1, int input2) that simulates a 12-hour analog clock.
+
+	Problem Requirements
+	input1 represents the current hour position on a clock (1–12).
+	input2 represents the number of jumps/multiplication factor.
+	Multiply input1 and input2 to calculate the movement.
+	The clock should always stay within 1 to 12.
+	If the calculated value exceeds 12, it should wrap around using clock logic.
+	If the final calculated position becomes 0, it must be treated as 12.
+	Test case 1 : 
+	input1 = 3
+	input2 = 4
+	
+	output is  12.
+	Test case 2 : 
+	input1 = 4
+	input2 = 5
+	
+	output is 8.
+	
+	Test case 3:
+	input1 = 9
+	input2 = 7
+	
+	output is 3.
+	
+53. Write a program to print the first n numbers in the Fibonacci sequence.
+	0, 1, 1, 2, 3, 5, 8, 13, ...
+
+--------Digit separation ---------
+54.wajp to print digit od a given number
+55. print even digit of a given number
+56. prime didgit of a given number
+57. calclulate sum of all didgits
+58. wajp to find product if even digit sum and odd digit sum
+59.wajp to find smallest digit
+60.wajp to find largest digits
+61.wajp to find second smallest digit
+62.wajp to find second largest
+63.wajp to check wheather the given number is speacial number or not
+64.wajp to print special numbers from the range 1 to 100.
+65.wajp to check given number niven number or not.
+66.wajp to print factorial of all digits.
+67.wajp to check wheather the given number is strong number or not?
+68. wajp to check the given number is palindrome or not.
+69.wajp to print all palindrome numbers from range 100 to 200.
+70. wajp to print all strong numbers from the range 1 to 1000.
+71. * write a java program to input a number and check and print weather it is an abundant number or not.
+ * opt:
+ * return 1 if it is abundant number
+ * return 0 if it is not an abundant number
+ * 
+ * explanation
+ *  an abundant factor is a number for which are sum of tits proper factors is grater than the number itself
+ *  
+ *  consider num 12
+ *  factors 12 = 1,2,3,..6
+ *  sum of factors = 1+2+
+ *  as 16>12 so 12 is an abundant.
+72.Write a program to Check Given Number is a Xylem or Phloem  Number. and return a suitable message.
+Explanation:-
+A number N will be a xylem number if the sum of its extreme (first and last) digits is equal to the sum of mean means digits present in the middle other than first and last digit(all digits except first and last) digits. If the sum of extreme digits is not equal to the sum of mean digits, the number is called phloem number.
+Check Inner sum and Outer sum are the same or not. Both are the same return(String return type) 1 otherwise 0.
+1 --> xylem number
+0 --> phloem number
+
+
+Example:-
+
+         int num = 12341
+         outer values = 1,1-----> add both 1+1=2 --->outer sum is 2.
+         inner values = 2,3,4----->  add those 2+3+4 ----->inner sum is 9.
+         compare both inner and outer 
+         Both are not equal. So, return 0.
+         if both are equal, So,return 1 .
+73.program to determine wheather a given number is a disarium number.
+A number is said to be the s=disarium number when the sum of its digit raised to the power of their respestive position is equal to the number itself.
+ex: 175
+1*1 +7*2 + 5*5
+1+49+125 = 175
+
+--------methods---------
+74.write a java program to create calculator class consists of 4 methods.
+1. To add three variables
+2. To multiply three variables
+3. To subtract 4 variables
+4. To add 2 variables.
+
+75.Write a java program tht performs multiple mathematical operations using methods.
+
+1. FInd maximum: define a method findMax(inta, int b , int c) tat takes three integer arguments and returns the largest number
+
+
+*/
