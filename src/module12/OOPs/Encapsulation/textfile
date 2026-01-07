@@ -1,0 +1,18 @@
+Encapsulation:The binding or wrapping states and behaviours of an object is knowm as encapsulation
+
+why we use encapsulation: To achieve data hiding
+
+what is data hiding: The process of avoiding direct access but providing controlled access is known as data hiding.
+
+How to avoid direct access?
+- Using private access modifier/ specifier
+- private is a keyword.
+- If we make any member as a private , so we cannot use that variable directly in different class. We can onlu use directly in same class.
+
+How to provide controlled access: Using getter and setter method.
+
+What is use of getter method : used to get or retrive private variable
+
+what is use of setter method: used to set or modify private variable.
+
+

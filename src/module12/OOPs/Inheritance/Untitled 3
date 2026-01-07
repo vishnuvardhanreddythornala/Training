@@ -1,0 +1,85 @@
+Inheritance:
+	It is also known as IS-A relationship
+	child class inherits property from parent class
+	we can acheve with the help od extends keyword and implement keyword.
+
+can we inherit static memebers?
+yes 
+
+Super calling statement:
+	supercalling statement is a constructor calling statement it is used to call constructor of super class.
+	It must be the first statement inside any constructor.
+	If programmer has not written this calling statement then by defeault compiler will add no argument super calling statement.
+	we cannot use this calling statement and super calling statement in same constructor.
+	we can use only one super calling statment in one constructor.
+	
+write a difference between super calling statement and this calling statement?
+
+| Feature                    | **`super()` (Super calling statement)**       | **`this()` (This calling statement)**           |
+| -------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| Purpose                    | Calls the **parent class constructor**        | Calls another constructor of the **same class** |
+| Used in                    | **Child class constructor**                   | **Same class constructor**                      |
+| Relationship               | Used in **inheritance**                       | Used in **constructor overloading**             |
+| Accesses                   | Immediate **superclass constructor**          | Current class constructor                       |
+| Parameter passing          | Passes values to **parent class**             | Passes values within **same class**             |
+| Position                   | Must be the **first statement**               | Must be the **first statement**                 |
+| Automatic call             | Automatically inserted by Java if not written | **Not automatic**, must be written explicitly   |
+| Can both be used together? | ❌ No                                          | ❌ No                                           |
+| Main use                   | Initialize **parent class variables**         | Avoid **code duplication**                      |
+
+Types of inheritance:
+1.Single level :one subclass is having only one super class is known as single level inheritance
+2.Multi level : One subclass is having more than one superclass at different level is known as multi level inheritance.
+3.Hierarchical: one supercalss is having more than one sub class at same level is known as Hierarchical inheritance.
+4.Multiple inheritance: one sub class is having more than one superclass at same level is known as multiple inhertance.
+	In java we cannot acheive multiple inheritance with the help of class because of diamond problem.
+	To acheive multiple inheritance in java we have to use interface 
+5.Hybrid inheritance: combination of any two inheritance is known as Hybrid inheritance.
+
+
+Diamond problem: A problem arises during  multiple inheritance is known as diamond problem.
+Reasons for diamond problem:
+	1.confusion with respect to class loading process.
+	2.confusion with respect to object loading process.
+	3.confusion with respect to accessing the members.
+
+--------------Typecasting------------
+Typecasting: Typecasting is the process of converting one data type into another.
+Widening Typecasting (Implicit Casting):Converting a smaller data type to a larger data type. 
+Example: int a = 10;
+		 double b = a;   // widening
+		 
+Narrowing Typecasting (Explicit Casting):Converting a larger data type to a smaller data type.
+Example: double x = 10.5;
+	     int y = (int) x;   // narrowing
+
+
+upcasting: 
+ -Conversion of subclass object reference to superclass reference
+ -in upcasting we create object of subclass and stored inside supercalss reference variable.
+ -with the help of upcasting we can access only superclass members.
+ -Done implicitly
+ -Achieves runtime polymorphism
+ 
+ 
+ Example: 
+	class Parent {}
+	class Child extends Parent {}
+	
+	Parent p = new Child();   // upcasting
+ 
+downcasting:
+ -Conversion of superclass reference back to subclass reference
+ -with the help of downcasting we can access members of sub-class as well as members of super-class.
+ -Must be done explicitly
+ -Used to access subclass-specific methods
+ -If done incorrectly, it causes ClassCastException
+ 
+ 
+ Example:
+	 Parent p = new Child();
+	 Child c = (Child) p;   // downcasting
+ 
+
+
+ 
