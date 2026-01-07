@@ -1,0 +1,7 @@
+Types of relationsships in java:
+1.HAS-A relationship
+2.IS-A relationship
+
+HAS-A relationship:
+1.Aggregation: It is a weak HAS-A relationhip where the child is created outside the parent class and can exist independently.
+2.Composition: It is a Strong HAS-A relationship where the parent class creates and owns the child object  and the child cannot exist independently.
