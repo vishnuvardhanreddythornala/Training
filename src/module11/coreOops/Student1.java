@@ -16,7 +16,7 @@
  * print details of both the objects.
  * 
  */
-package module11.oops;
+package module11.coreOops;
 
 public class Student1 {
 	int id;

@@ -1,5 +1,5 @@
 // adding and multiplying two numbers.
-package module11.oops;
+package module11.coreOops;
 
 public class StaticMethod {
 	static class Calculator{

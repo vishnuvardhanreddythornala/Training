@@ -21,7 +21,7 @@
  * 3.heap area
  */
 
-package module11.oops;
+package module11.coreOops;
 
 public class staticvariables {
 static int a = 10; // static variable

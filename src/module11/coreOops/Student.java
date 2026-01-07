@@ -13,7 +13,7 @@ create parameterized constructor to initialize only id.
 student.
 -in main method create objects using all constructors.
  */
-package module11.oops;
+package module11.coreOops;
 
 public class Student {
 	static String CollegeName = "LPU";

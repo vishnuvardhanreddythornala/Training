@@ -13,7 +13,7 @@ Steps:
 	3	Change city via emp2
 	4	Print city of both employees
  */
-package module11.oops;
+package module11.coreOops;
 
 
 class AddressClass {

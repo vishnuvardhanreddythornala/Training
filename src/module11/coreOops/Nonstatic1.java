@@ -1,5 +1,5 @@
 //wajp to execute instance initalizer block and  execute non static method before the execution of main method
-package module11.oops;
+package module11.coreOops;
 
 public class Nonstatic1 {
 	

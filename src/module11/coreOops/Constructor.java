@@ -2,6 +2,7 @@
  * constructor is a special type of method
  * the name of the constructor is as same as classNmae
  * it is  similar to method but it does not have return type
+ * z
  * A return type in programming specifies the data type (like int, string, boolean) of the value that a function or method sends 
  * back to the code that called it after finishing its task, acting like a contract for what data to expect, with void used when no value is returned.
  * 
@@ -27,7 +28,7 @@
  * 
  * 4.private constructor
  */
-package module11.oops;
+package module11.coreOops;
 
 public class Constructor {
 	public Constructor() {

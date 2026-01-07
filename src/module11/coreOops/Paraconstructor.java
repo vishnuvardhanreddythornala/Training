@@ -1,4 +1,4 @@
-package module11.oops;
+package module11.coreOops;
 
 public class Paraconstructor {
 	int id;

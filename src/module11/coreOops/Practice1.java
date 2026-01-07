@@ -1,4 +1,4 @@
-package module11.oops;
+package module11.coreOops;
 
 public class Practice1 {
 	static String CompanyName = "Capgemini";

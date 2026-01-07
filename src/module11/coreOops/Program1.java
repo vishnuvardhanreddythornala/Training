@@ -12,7 +12,7 @@ Requirements
 	•	display() – prints the final values of the instance variables.
 	6.	One non-static method must call another non-static method using the this keyword.
  */
-package module11.oops;
+package module11.coreOops;
 
 public class Program1 {
 	

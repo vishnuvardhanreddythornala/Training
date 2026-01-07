@@ -14,7 +14,7 @@ Requirements:
 	2.	Parameterized constructor sets all values.
 	3.	Use this() to chain constructors.
  */
-package module11.oops;
+package module11.coreOops;
 
 public class Mobile {
 	

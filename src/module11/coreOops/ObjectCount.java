@@ -9,7 +9,7 @@
 	
 	Prints the value of count
  */
-package module11.oops;
+package module11.coreOops;
 public class ObjectCount {
 	static int count = 0;
 	
