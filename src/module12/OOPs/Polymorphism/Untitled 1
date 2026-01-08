@@ -1,0 +1,32 @@
+Polymorphism:It is the process of performing various tasks with same identity is known as Ploymorphism.
+
+Types of polymorphism:
+1.Compile time polymorphism:
+The binding happens during compile time is known as compile time polymorphism
+It is also known as static binding.
+
+We can achieve compile time ploymorphism using;
+	-Method overloading
+	-Constructor Overloading
+	-Variable Shadowing:
+		A sub class and super class is static variable or non static variable with same is known as variable shadowing.
+		Which variable to be called is decided during compile time based on refernce variable type.
+		
+	-methodShadowing
+		A sub class and super class is having static method with same name, same access modifier, same return type and same formal arguments is known as method shadowing.
+		Which method is to be 
+	
+2.Runtime ploymorphism:
+The binding happens during the runtime is known as runtime ploymorphism.
+It is also known as dynamic binding.
+-We can achieve runtime polymorphism using method overriding.
+
+Annotation: extra validation provided by programmer
+	@Override: Which means method is override from superclass
+	If we are not giving same access modifier, name, return type or formal
+
+Why we use variable shadowing
+Variable shadowing happens when a local variable or parameter has the same name as an instance (or class) variable.
+The local variable “shadows” (hides) the outer variable within its scope.
+
+Where we use variable shadowing?
