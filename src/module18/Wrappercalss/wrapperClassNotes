@@ -1,0 +1,27 @@
+Wrapper calss:
+ A wrapper class in java is used to convert primitive data types into objects.
+ Java provides one wrapper class for each primitive type.
+ 
+Why wrapper nclasses are needed?
+-Java wroks with objects not primitives in many places like collections , generics,etc.
+-Wrapper classes allow primitives to be treated as objects.
+-Provide utility methods for type conversion
+-Support null values (primitives cannot)
+
+Primitive datatupe ->Wrapper calss
+byte ---------------calss Byte
+short---------------class Short
+int-----------------class Integer
+long----------------class Long
+float---------------class Float
+double -------------class Double
+char----------------class Character
+boolean-------------class Boolean
+
+Boxing: The conversion of primitive datatype into non primitive class is known as boxing.
+
+int a = 10;
+Integer A1 = a;
+Syso("Implicit boxing: "+A1)
+
+Unboxing: The conversion of non primitive classes into primitive datatype is known as boxing.
