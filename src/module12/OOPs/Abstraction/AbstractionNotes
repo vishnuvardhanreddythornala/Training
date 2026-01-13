@@ -1,0 +1,56 @@
+Abstraction:
+Abstraction menas showing only the essesntial features and hiding the internal implementation details.
+In simple words Displaying the things which are required and hiding the things which are not required.
+
+How abstraction achieved in java?
+Using abstract class
+using interface
+
+Concrete method: A method which has method body and it contains implementation logic.
+Concrete class: A  concrete class is a normal class that is not declard using the abstract keyword, has complete method implementations, and allows object creation.
+
+Abstract method: A method whihc dos not have method body.
+
+Abstract class: a abstract class is a class that cannot be instantisted and my contain abstract methods.
+
+IF any class inherits abstract method then that inherited class must be an abstract.
+If we dont want to make that inherited class as abstract then we have to override the abstract method. 
+note: we cannot create a object for abstract class. 
+
+How yo create a abstract method?
+Must be prefixed with the abstract keyword.
+must end with the semicolon;
+does not have a method body.
+
+
+We cannot create static method as abstract method.
+
+in abstarct class we can create static variable, non static , static methid , non sttaic methid, abstract methiod, static intislizer block , 
+instance initializer block and constructor.
+In abstarct class we can create abstract method  as well as non static concrete methods , hence we cannot acheive 100% abstrction using abstract class.
+If we want to acheive 100% of abstraction then we have to use interface.
+
+
+Interface :
+
+Interface is a keyword it is used to create non primitive datatype.
+It is used to acheive  100% of abstraction.
+It is use to acheive multiple incheritance.
+
+To inherit interface into class we use implements keyword.
+with the help of implements keyword we can inherit more than one interface.
+We cannot create object of interface.
+
+IN Interface we cannot create static initializer block, instance intislizer block, constructor.
+
+In interface all the non static methods already prefixed with abstract and public keyword, hence we can acheive 100% abstraction using interface.
+
+In interface all the variables are already prefixed with final and static keyword.
+If any variable is prefixed with final keyword which means we cannot re- initialize that variable
+
+Static method of interface can be access only using static way.
+
+Types of interfaces:
+1.Regular or normal interfaces
+2.Marker interface
+3.Functional interface 
