@@ -1,0 +1,55 @@
+Exception: 
+the problem that occurs during runtime due to which the flow of program gets disturbed and program get terminated.
+
+                                              Throwable
+                                                 |
+                     Error---------------------------------------------------------Exception
+                       |																|         
+                                                             Runtime Exception----------------------------------------CheckedExceptions
+                    VM error										|														 |
+                       |										ArthematicException									  SQLException
+                 Stack overflow error							InputMismatchException								  IOException
+                 out of memory error 							NullPointer Exception                                 FileNotFOundException
+                 												ClassCastException                                    CLoneNotSupportedException
+                 												IndexOutoFBoundException                              InterruptedException
+                 															|									      ClassNotFoundException
+                 												ArrayIndexOutOfBoundException
+                 												StringIndexOutOfBoundException  
+ 
+ What will happen when exception occurs?
+ -The flow of the program is disturbed or stopped.
+ -Exception object will be created which contains.. Type of exception, Error message
+ -JVM search for exception handler.
+ -If it is present it will handle the exception and program continues after try catch block.
+ -If it is not present program gets terminated.
+ 
+ Types of Exception:
+ -try catch
+ -try with multiple catch
+ -try finally
+ -try catch finally.
+ 
+ Main keywords-- try, catch, finally, throw and throwness.
+------------------
+Try:
+It contains code that might cause an error.
+It is useful to prevent your program from crashing if something goes wrong.
+
+------------------
+Catch:
+It catches the rror that happens in the try block and handles it.
+It is useful instead of crashing, your program can show a message or do something safe.
+-------------------
+Finally:
+It always runs-whether or not there was an error.
+It is useful to do cleanup work like closing files, releasing memory, etc.
+
+----------------
+Throw:
+We use it to manually create an error (exception) when we detect a problem.
+It is useful when we want to stop the program on purpose if something is wrong.
+
+-------------------
+Throws:
+It tells java that a method might cause an exception, and it should be handled when called.
+It is useful to warn whoever calls the method that it might throw an exception.
