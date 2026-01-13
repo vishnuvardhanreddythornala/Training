@@ -1,0 +1,31 @@
+Object class:
+
+It is a supermost class for all java classes
+It is present inside java.lang language.
+
+------Non-static methods of object class----
+OBJECT CLASS METHODS 
+1. toString()
+2. hashCode()
+3. equals(Object obj)
+4. finalize()
+5. getClass()
+6. clone()
+7. wait()
+8. wait(long l)
+9. wait(long l,int i)
+10. notify()
+11. notifyAll()
+
+--
+1.toString(): 
+The return type of toString method is String.
+Used to return address of an object in string format.
+
+Why do we need to override toString method()?
+To print the data of an object rather than printing addess of an object.
+
+2.hashcode():
+The return type of hashcode method is int.
+It will return unique integer value for each object.
+
