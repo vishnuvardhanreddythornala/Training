@@ -19,3 +19,138 @@ public static void powerbutton(){
 we have 2 types of methods
 1. no argument method - a method which does not have formal arguments.
 2. parameterized method-a method which have formal arguments.
+
+--------------------------------Static------------------------------------------
+Difference between static method and static block.
+Static Block in Java
+
+📌 What it is :
+
+A static block is a block of code that runs once when the class is loaded into memory.
+
+📌 Purpose
+
+	Used for static initialization
+	
+	Executed before main()
+	
+	Ideal for one-time setup (loading drivers, initializing static data)
+
+📌 Key Points
+
+	Runs automatically
+	
+	Executes only once
+	
+	Cannot be called manually
+	
+	No return type
+
+	Runs before any static method
+	
+🔹 Static Method in Java
+📌 What it is
+
+A static method belongs to the class, not to any object.
+
+📌 Purpose
+
+	Perform operations related to the class
+	
+	Can be called without creating an object
+	
+	Can be called multiple times
+
+📌 Key Points
+
+	Must be called explicitly
+	
+	Can accept parameters
+	
+	Can return values
+	
+	Can be overloaded
+	
+	Can access only static variables/methods
+	
+-----------------
+can we overload main method.
+
+------------------
+write a difference between static and non static variable.
+static variable:
+- Static variables belong to the class, not to objects.
+- Only one copy exists, shared by all objects.
+- They are accessed using the class name and loaded during class loading.
+
+non- static variable:
+- Non-static variables belong to an object.
+- They are created when an object is created and destroyed with the object.
+- Each object has its own copy.
+	
+whenever we have a non ststic variable and local variable with same,
+if we use directly inside non static context the high priority is given for local varibale
+to use non static variable we have to use this keyword
+
+this:
+this is a keyword
+it is non static reference variable
+it is used to store address of current object
+it can be used only inside non static context.
+
+
+-----------------
+write a difference between static and non static block
+
+Static Block
+
+	- A static block executes once when the class is loaded into memory, before the main() method.
+	
+	- It is used to initialize static variables and cannot access non-static members directly.
+
+Non-Static Block (Instance Initializer Block)
+
+	- A non-static block executes every time an object is created, before the constructor.
+	
+	- It is used to initialize instance (non-static) variables and can access both static and non-static members.
+
+
+------------------------------constructor-----------------
+1.why constructor recursion is not possible?
+Constructor recursion is not possible because it would lead to an infinite loop during object creation, and Java strictly prevents that.
+Constructor recursion is not possible because it causes infinite object creation with no termination condition, leading to stack overflow. 
+Java prevents this at compile time to ensure safe object initialization.
+
+2.what is the use of constructor overloading?
+Constructor overloading is used to initialize objects in multiple ways based on different inputs, 
+improving flexibility, readability, and proper object initialization.
+
+3.Difference between constructor overloading and method overloading?
+	Constructor Overloading:
+	
+		Multiple constructors with different parameters
+		
+		Used to initialize objects
+		
+		Called automatically during object creation
+	
+	Method Overloading:
+	
+		Multiple methods with same name but different parameters
+		
+		Used to perform different tasks
+		
+		Called explicitly using method name
+
+4.When do we use a Parameterized Constructor?
+
+ -We use a parameterized constructor when we want to pass values at the time of object creation and initialize the object with 
+  specific (custom) data instead of default values.
+  
+5.What is copy constructor?.
+- A copy constructor is used to create a new object by copying the values of an existing object, ensuring independent memory allocation.
+
+
+
+
+

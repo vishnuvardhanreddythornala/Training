@@ -30,7 +30,7 @@ public class demo {
 		}
 		
 		
-		
+		sc.close();
 
 	}
 

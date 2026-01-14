@@ -40,6 +40,7 @@ public class Constructor {
 		// TODO Auto-generated method stub
 		System.out.println("Main start");
 		Constructor obj1 = new Constructor();
+		
 
 	}
 

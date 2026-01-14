@@ -1,7 +1,7 @@
 Inheritance:
 	It is also known as IS-A relationship
 	child class inherits property from parent class
-	we can acheve with the help od extends keyword and implement keyword.
+	we can acheve with the help of extends keyword and implement keyword.
 
 can we inherit static memebers?
 yes 
@@ -80,6 +80,11 @@ downcasting:
 	 Parent p = new Child();
 	 Child c = (Child) p;   // downcasting
  
+ 
+ IF we want to inherit ine class into another class, we use the extends keyword
+ if we want to inherit implement an interface into a class we use the implement keyword
+ If we want to inherit one interface into another interface we use the extends keyword
+ If we try to inherit class into an interface,it is not possible in java.
 
 
  

@@ -279,3 +279,321 @@ ex: 175
 76.write a java program to print all the numbers from range 1 to 1000 without using loops.
 
 77.wajp to print all the odd numbers from the range 500 to 50 without usingf loop.
+
+78.wajp to print sum of all  numbers from range  1 to 5 without using anu loop.
+
+----------------widening and narrowing-----------------------
+79.wajp to convert a double value 45.78 into an int and print result.
+80.wajp to assign an int value 130 to a byte using explicit casting and print the output
+81.wajp to convert long -- int -- short -- byte. use value 987654321.
+
+------------------arrays------------------
+ 
+ 82.wajp to print even elements form the given array.
+ 83.wajp to print prime elements for the given array.
+ 84.wajp to print perfect(perfect number) elements from the given array . 
+ 85. wajp to find sum of all elements.
+ 86.wajp to find product of all elements.
+ 87.wajp to find smallest element without sorting.
+ 88.wajp to find largest element without sorting.
+ 89.wajp tofind second smallest element without sorting
+90.wajp to find second largest element without sorting.
+91. wajp to write third smallest element without soring.
+92.wajp to find third largest element without soring.
+93.wajp to merge two array without collection.
+94.wajp to find union from two array without collection.
+95.wajp to find intersection from two array without collection.
+96.wajp to find unique elements from array without using cllections.
+97.wajp to find duplicates from array without using collections
+98.wajp to find count of elements which are divisible by k
+		input:
+		int n = 7
+		int[] a=9,-13,-7,-8,18,10 
+		int k = 18
+		opt : 2
+99.wajp to find pairs whose sum is equal to given target.
+100. wajp to find count of elements of an unsorted integer array which are equal to the average of all elememnts of array
+101. wajp to find avg of smallest and largest elements in an unsorted array.
+102.given an array of integrs nums and an integer target ,return indices of the two numbers such that they add upto target.
+you may assume that each input would have exactly one solution and you may not use same solution.
+	input nums =[2,7,11,15], target = 9
+	outputt: [0,1]
+	explanation: because nums[0] + nums[1] == 9, we return[0,1].
+	
+	example2: input nums = [3,2,4], target=6.
+103.find the counts is elements of unsosrted integer array which are equal to the avg of all elements of that array.
+	ex:
+	input1 :[ 2,2,2,2,2]
+	opt : 5
+	solution = 2+2+2+2+2 = 10/5 == 2
+	it contain five 2 element
+	
+	input2: [1,3,2,4,5]
+	opt: 1
+	sol: 1+3...= 15/5== 15/5 ==3
+	it contains 1 3 element
+	
+104.Find the average of largest and smallest numbers in an unsorted integer array.
+Eg.
+
+Input Case 1:
+
+input: [1, 4, 3, 2]
+output: 2.5
+
+solution:
+average = (1 + 4) / 2
+=> 5 / 2
+=> 2.5
+
+input: [1, 4, 3, 4]
+output: 3
+
+solution:
+average = (1 + 4 + 4) / 3
+=> 9 / 3
+=> 3
+
+105.given an array of integers, find and print all the leaders of the array. A leader is defined as an element of the array whihc is grater 
+than all the elemetns following it.The right most elements is always a leader.
+	example
+	in the array {8,7,4,3,5,2}, leaders are 8,7,5 and 2
+	explanation:
+	8>7, 8>4, , ..8>2
+	7>4,..,7>2
+	5>2
+	2 is right most element.
+	
+106.Write a program to reverse each element (at the same index position).
+
+		For Example:
+		
+		arr1 = {123, 456, 789};
+		expected = {321, 654, 987};
+
+107.wajp to overload main method.
+108.wajp to execute instance initalizer block and  execute non static method before the execution of main method 
+
+-------------constructor---------------
+
+109. wajp to create student class consists of 4 data such as: id, name, percentage,collgege name
+
+------------ core oops-------------
+
+110.Write a Java program that satisfies all the following conditions:
+
+Requirements
+	1.	Create a class named Processor.
+	2.	Declare two non-static variables x and y.
+
+	4.	Initialize the instance variables only inside a non-static method using the this keyword.
+	5.	Create three non-static methods:
+	•	initialize() – assigns values to x and y using this.
+	•	update() – modifies the values of x and y and demonstrates variable shadowing by declaring a local variable with the same name as one instance variable.
+	•	display() – prints the final values of the instance variables.
+	6.	One non-static method must call another non-static method using the this keyword.
+	
+111.WAJP to create student class consist of 4 data such as:
+	id, name , percentage, college name
+create parameterized constructor to initialize only id.
+-create parameterized constructor to initialize only name.
+-create parameterized constructor to initialize only percentage.
+-create parameterized constructor to initialize id and name.
+-create parameterized constructor to initialize id and percentage.
+-create parameterized constructor to initialize name and percentage.
+-create parameterized constructor to initialize id , name and percentage.
+-create default / no argument constructor to assign default values.
+-create one static method called printDetail to print all the details of 
+student.
+-in main method create objects using all constructors.
+
+112.Q. Write a Java class named BankAccount that meets the following requirements:
+
+1. Static Variable : 
+
+interestRate (a static variable) representing the common interest rate for all accounts. Initialize it to 5.0%.
+
+2. Non-Static Variable : 
+
+balance (a non-static variable) representing the account balance. Each account starts with $1000.
+
+3. Static Method : 
+
+updateInterestRate(double newRate): A static method to update the interestRate for all accounts.
+
+4. Non-Static Methods
+
+- deposit(double amount): Adds money to the account balance.
+
+- withdraw(double amount): Deducts money from the account if sufficient funds exist. Otherwise, display "Insufficient funds!".
+
+- displayAccountInfo(): Displays the account's balance and the current interest rate.
+
+
+
+5. Main Method :
+
+- Create two bank accounts (acc1, acc2).
+
+- Update the interest rate using the static method.
+
+- Perform deposit and withdrawal operations on both accounts.
+
+- Display the account details after transactions.
+
+113.Create a Java class named Student with the following requirements:
+	1.	Instance variables:
+		int id
+		String name
+		int[] marks (size 3)
+	2.	Create:
+		A parameterized constructor to initialize all variables.
+		A copy constructor that creates a deep copy of a Student object.
+	3.	In the main method:
+		Create one Student object using the parameterized constructor.
+		Create another Student object using the copy constructor.
+		Modify the marks of the copied object.
+		Print details of both objects.
+	4.	Ensure that changes made to the copied object do not affect the original 
+	object.
+	
+114.A company stores employee details along with address information.
+Question
+Create classes:
+	1. Address → city
+	2. Employee → id, Address address
+Add:
+	parameterized constructor
+	copy constructor that performs shallow copy
+Steps:
+	1	Create employee emp1
+	2	Create emp2 using copy constructor
+	3	Change city via emp2
+	4	Print city of both employees
+
+115.A mobile phone can be initialized with default settings or custom settings.
+
+Create class Mobile with:
+	•	String brand
+	•	int storage
+	•	boolean is5G
+
+Requirements:
+	1.	Default constructor sets:
+	•	brand = “Unknown”
+	•	storage = 64
+	•	is5G = false
+	2.	Parameterized constructor sets all values.
+	3.	Use this() to chain constructors.
+	
+116.A smart device can be initialized in multiple stages depending on the information available at the time of creation.
+
+
+Class Name: SmartDevice
+
+Instance Variables
+	•	String deviceName
+	•	String os
+	•	int batteryCapacity
+
+
+
+Constructor Requirements
+
+Implement the following constructors using constructor chaining with this():
+	1.	Default constructor
+	•	Initializes the device with default values.
+	2.	Constructor with deviceName
+	•	Initializes the device name and uses constructor chaining.
+	3.	Constructor with deviceName and os
+	•	Initializes device name and operating system using constructor chaining.
+	4.	Constructor with all fields (deviceName, os, batteryCapacity)
+	•	Initializes all instance variables.
+	
+-------------constructor chaining---------
+	
+116.Write a Java program to create a Laptop class that demonstrates constructor chaining using this().
+
+Requirements:
+
+The Laptop class should have three instance variables:
+brand (String)
+ramSize (int)
+price (double)
+
+Implement the following constructors using constructor chaining (this()):
+
+Default constructor that sets default values ("Unknown", 8GB, 50000.0).
+Constructor with only brand (calls the default constructor).
+Constructor with brand and ramSize (calls the constructor with brand).
+Constructor with all three fields (brand, ramSize, price) --(the final constructor)--.
+
+Create a printDetails() method to display laptop details.
+
+In main(), create different Laptop objects using all constructors and print their details.
+
+117.2. Write a Java program that performs the following tasks:
+Create a class Employee with three attributes: id, name, and sal (salary).
+Implement a parameterized constructor to initialize these attributes.
+Create a non-static method printDetails() to display employee details.
+In the main() method:
+Create an 4 Employee object
+
+---------------------------------------------------------------------
+
+118.3. Write a Java program to demonstrate method overloading by defining both static and non-static methods with the same name but different parameter lists. Your program should include the following:
+
+A class named OverloadingExample containing:
+
+A static method named display() that takes an int parameter and prints a message.
+A static method named display() that takes a String parameter and prints a message.
+A non-static method named display() that takes two parameters: an int and a double, and prints a message.
+A non-static method named display() that takes no parameters and prints a default message. 
+
+---------------------------------------------------------------------------------------
+
+119.4. Write a Java program that defines a class named DemoClass with the following specifications:
+
+The class should contain two Static Initialization Blocks (SIBs) that print messages when they execute.
+The class should contain one Instance Initialization Block (IIB) that prints a message when it executes.
+The class should contain one non-static method named displayMessage(), which prints a message when called.
+The class should contain two static methods:
+staticMethodOne(): Prints a message when called.
+staticMethodTwo(): Prints a different message when called.
+
+Inside the main() method, perform the following actions:
+Call both static methods directly using the class name.
+Create an object of the class, which should trigger the execution of SIBs, IIB, and constructor.
+Call the non-static method using the object reference.
+
+-------------------------------------------------------------------------------------
+
+
+------------Encapsulation--------------
+
+120.Q1. Write a Java program to create a class called Person with private instance variables name, 
+age. and country. Provide public getter and setter methods to access and modify these variables.
+------------------------------------------------------------------------------------------
+
+121.Q2. Write a Java program to create a class called Employee with private instance variables employee_id, 
+employee_name, and employee_salary. Provide public getter and setter methods to access and modify the id and name variables,
+ but provide a getter method for the salary variable that returns a formatted string.
+------------------------------------------------------------------------------------------
+
+122.Q3. Write a Java program to create a class called Circle with a private instance variable radius.
+ Provide public getter and setter methods to access and modify the radius variable. However, provide two methods called calculateArea() 
+ and calculatePerimeter() that return the calculated area and perimeter based on the current radius value.
+------------------------------------------------------------------------------------------
+123.wajp to create a static method which will return address of an object.
+
+------------Inheritance-----------
+
+124. wajp to acheive multiple inheritance. 
+
+
+
+
+
+
+
+

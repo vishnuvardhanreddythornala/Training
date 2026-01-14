@@ -22,6 +22,15 @@ Boxing: The conversion of primitive datatype into non primitive class is known a
 
 int a = 10;
 Integer A1 = a;
-Syso("Implicit boxing: "+A1)
+Syso("Implicit boxing: "+A1);
+
+Integer A2 = Integer.valueOf(a);
+syso("Explicit boxing: "+A2);
 
 Unboxing: The conversion of non primitive classes into primitive datatype is known as boxing.
+ Integer a = 10;
+        int i1 = a; // implicit unboxing
+        System.out.println("Integer Implicit unboxing: " + i1);
+
+        int i2 = a.intValue(); // explicit unboxing
+        System.out.println("Integer Explicit unboxing: " + i2);
