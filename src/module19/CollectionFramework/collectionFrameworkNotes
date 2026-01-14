@@ -1,0 +1,94 @@
+Collection Framework:It provides a mechanism to perform CRUD operation, searching operation and sorting operation on group of objects.
+
+collection: Group of object store inside another object.
+Framework:It has many inbuilt classes and interfaces.
+To perform CRUD operation, searching operation and sorting operation.
+
+
+
+Collection Hierarchy:
+
+Iterable   (interface) -- supermost class
+   |
+   ↓
+Collection (interface) 
+   |
+   ├── List   (interface) -- extends collection
+   |     ├── ArrayList   (class) -- implements List
+   |     ├── LinkedList  (class) -- implements List
+   |     └── Vector      (class) -- implements List
+   |           └── Stack (class)
+   |
+   ├── Set    (interface) -- extends collection
+   |     ├── HashSet        (class) -- implements set
+   |     ├── LinkedHashSet  (class) -- implements set
+   |     └── TreeSet        (class) -- implements set
+   |
+   └── Queue  (interface) -- extends collection
+         ├── PriorityQueue (class) -- implements queue
+         └── LinkedList    (class) -- implements queue
+         
+1.List:
+ - It is a interface
+ - It is sub interface of collection interface.
+ - It is present inside java.util package
+ - List is interface so we cannot create object of List
+ - But we can use as a reference variable.
+ 
+ -It can store differnt type of object
+ -It is dynamic in size
+ -It can maintain insertion order
+ -It can store duplicate objects.
+ -It maintian index.
+ -it has random access.
+ It can store null objects.
+ 
+ Methods:
+ add(object obj) -  it is used to add object inside list.Return type of add method is boolean.
+ size() -  It is used to return size or length of List.Return type of size method is int.
+ get(int index) - It is used to return Object from specific index. Return type is object.
+ 
+ 
+ 1.To add an Object:
+ -add(object) 
+ -addAll(Collection)  -- It is used to add collection in List , return type is boolean.
+ -add(int index, object) 
+ -addAll(int index, collection) -- It is used to add whole collection at specific index, return type is boolean.
+ 
+ 2.To remove objects:
+ -remove(object) -- it is used to remove specifc object.If we have duplicate objects it will remove first object, return type is boolean
+ -remove(int index) -- it is used to remove object from specific index., return type is object
+ -removeAll(collection) -- it is used to remove whole collection. return type is boolean
+ -clear() --  it is used to clear the collection, return type is void.
+ 
+ 3.To search object: 
+ -contains(object) -- It is used to check wheather the given object is present or not. return type is boolean.
+ -containsAll(collection) --  It is used to check whether the given collection is present or not . return type is boolean.
+ 
+ 4.To access objects:
+ -get(int index)
+ -iterator()
+ -listIterator()
+ -for each loop
+ 
+ 
+ 
+ In all the classes collection heirarchy toString(), hashCode() and equals() method is already overridden.
+ 
+ In java we have two types of collection
+ 1.generic collection - in this collection we can store only same type of object for that we use  <> angular brackets.Inside angular bracket we have to mention
+ non-primitive data types.
+ 2.non-generic collection.
+ 
+ 
+ Write a difference between for loop and for each loop.
+ For loop provides index-based access and control, while for-each loop is used for simple traversal without index handling.
+ 
+Feature	for loop	for-each loop
+-Index access	    -Uses index (i) to access elements	Does not provide index
+-Best used for	  	-When index control or modification is needed	When only reading elements
+-Applicable on	  	-Arrays and collections	Arrays and collections
+-Modification	  	-Can modify elements using index	Cannot modify structure directly
+-Syntax	More flexible but verbose	-Simple and readable
+ 
+
