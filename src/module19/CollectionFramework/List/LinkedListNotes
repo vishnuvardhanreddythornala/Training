@@ -1,0 +1,20 @@
+Linked List:
+	It is a implementing class of list interface,Queue interface.
+	It is present since jdk 1.2v
+	It follows double Linkedlist data structure.
+	It stores the object in the form of nodes.
+	Because of this LinkedList is good for insertion and deletion operation.
+	To perform forward and backward it uses listIterator cursor.
+	
+Singly LinkedList
+Structure: Each mode contains data and a pointer to the next node.
+Traversal: Only in one direction(forward)
+
+Doubly LinkedList
+Structure: Each node contains data, a pointer to the next node, and a pointer to the previpus node.
+Traversal: Can be traversal forward and backward.
+
+Circular Doubly Linked List:
+Structure: Combines circular and doubly linked list features.Each node has pointers to both the next node.  
+Traversal: Both directions and continous looping.
+
