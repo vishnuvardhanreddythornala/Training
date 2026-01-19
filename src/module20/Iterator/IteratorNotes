@@ -1,0 +1,20 @@
+Iterator:
+ Iterator is a cursor, it is a interface.
+ To activate iterator cursor in collection we have iterator() method.
+ The return type of iterator() method is iterator interface.
+ With the help of this method we can able to access hasNext(), next() and remove() methods.
+ 
+ hasNext():
+  It is used to check whether next object is present or not.
+  retun type is boolean.
+  
+next():
+  It is used to return the next object of iteration.
+  
+remove():
+  It is used to remove the previous object of iteration.
+  which means we can use remove() after the next() method.
+  If we try to use remove method before next() method it will throw illegal throw exception.
+  retun type is void.
+  
+ with the help of iterator we can traverse only in the forward direction.
