@@ -1,0 +1,20 @@
+HashSet:
+ It is an implementation class of set interface.
+ It is present inside java.util package.
+ It does not follow insertion order,sorting order.
+ It does not allow duplicate elements.
+ It allows only one null element.
+ It is internally implemented using hashtable(hashing mechanism)
+ It provides fast performance for add, remove and search operations.
+ It is used when uniqueness is required and order is not important.
+ 
+LinkedHashSet:
+ It is an implementation class of set interface.
+ It is present inside java.util package.
+ It does not follow insertion order.
+ It does not allow duplicate elements.
+ It allows only one null element
+ It is internally implemented using hashtable + Doubly LinkedList
+ It sligtly provides slower performance than hashSet due to order maintainance
+ It is used when uniqueness + insertion order both are required.
+ 

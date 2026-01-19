@@ -1,0 +1,10 @@
+Tree set:
+ It is an implementation class of navigableSet interface.
+ It is present inside java.util package.
+ It is introduced in jdk 1.2
+ It follows sorted order (Ascending order by default)
+ It does not follow insertion order.
+ It does not allow duplicate elements
+ It does not allow null elements.
+ It can store only same type of objects
+ It is used when sorted data with Uniqueness is required.
