@@ -1,0 +1,19 @@
+PriorityQueue:
+It is an implementation class of Queue interface
+It is present insider java.util package
+It was introduced in JDK 1.5
+It follows priority-based ordering, not insertion order
+By default, it follows Min-heap (smallest element has highest priority)
+Elements are retrieved using FIFO based on priority, not on insertion time
+It does not allow null elements
+It allows duplicate elements 
+It can store only same type of objects.
+It is internally implemented using Heap data structure
+It is used to perform priority-queue operation
+
+Head Data structure:
+It is a non-linear data structure, it follows Complete Binary Tree Property
+
+Heap is of two types: 
+Min-Heap: Parent node value is smaller than or equal to its child nodes.
+Max-heap: Parent node value is greater than or equal to its child nodes.

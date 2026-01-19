@@ -1,0 +1,83 @@
+Map: 
+ map is a interface present inside java.util package
+ It is used to store data in key value pair
+ one key value pair is known as one entry.
+ Keys must be unique
+ values can be duplicate
+ 
+Map does not comes under collection because in collection we store only object but in map we store objects in the form of key value pair.
+Map interface has 3 implementary classes such as hashMpa,LinkedHashMap and treeMap.
+
+put(Object key, Object value):
+   It is used to add entry inside map
+   return type is object
+   It will return previous value of key, if we are adding key first time so it will return null.
+   if we try to store duplicate key it will override previous value
+   
+Remove(Object Key):
+ It is used to remove the entry using key, return type is object, 
+ It will return value of the specific key, 
+ if we don’t have that specific key then it will return null
+ 
+containsKey(Object Key): 
+ It is used to check whether the given key is present or not, return type is boolean
+ 
+containsValue(Object value):
+ It is used to check whether the given value is present or not not, return type is boolean
+ 
+get(Object key):
+ It is used to return the value of the specific key,return type is Object
+ 
+entrySet():
+ It is used to convert all the entries of map into Set interface, return type is Set interface
+ 
+keySet():
+ It is used to get all the keys of map in Set format, return type is Set interface
+ 
+values():
+ It is used to get all the values of map in Collection format, return type is collection interface
+ 	
+
+HashMap: 
+	It is an implementation class of Map interface
+	It is present inside java.util package
+	It was introduced in JDK 1.2
+	It does not follow insertion order
+	It does not follow sorting order
+	It does not allow duplicate keys
+	It allows duplicate values
+	It allows only one null key
+	It allows multiple null values
+	It is internally implemented using HashTable (Hashing mechanism)
+	It provides fast performance for put, remove, and get operations
+	It is not synchronized
+	It is used when fast access is required and order is not important
+
+LinkedHashMap
+	It is an implementation class of Map interface
+	It is present inside java.util package
+	It was introduced in JDK 1.4
+	It follows insertion order
+	It does not follow sorting order
+	It does not allow duplicate keys
+	It allows duplicate values
+	It allows only one null key
+	It allows multiple null values
+	It is internally implemented using HashTable + Doubly Linked List
+	It provides slightly slower performance than HashMap due to order maintenance
+	It is not synchronized
+	It is used when uniqueness of keys + insertion order both are required
+
+TreeMap
+	It is an implementation class of NavigableMap interface
+	It is present inside java.util package
+	It was introduced in JDK 1.
+	It follows sorted order of keys (ascending by default)
+	It does not follow insertion order
+	It does not allow duplicate keys
+	It allows duplicate values
+	It does not allow null keys
+	It allows multiple null values
+	It stores keys in sorted structure
+	It is used when sorted key-value pairs are required
+  
