@@ -1,0 +1,37 @@
+Regular expressions: 
+	A regular expression is a smart rule that checks wheather text follows a specific pattern.
+	Regex regular expression in java is a pattern used to match,search,validate,split or replace text.
+	java provides regex support through the java.util.regex package
+	
+Regular Expressions are used:
+	To validate input(email, mobile number, password)
+	To search text efficiently
+	To extract specific data from strings
+	To replace or split strings based on patterns
+	
+Main classes:
+	Pattern - represents the regex pattern
+	Matcher - matches the pattern against a string
+Pattern defines the rule,and matcher applies that rule to the data
+
+Regex is a powerful way to define patterns for matching and validating Strings in java
+Basic regex syntax starts with matching excat text, understnading case sensitivity, and performing simple pattern checks
+
+Regex symbols are used to define rules for matching text patterns
+
+Some important patterns:
+
+. = Matches any single character except newline.
++ = Matches one or more occurences of the previous character or pattern
+* = Matches zero or more occurences of the previous character or pattern
+? = zero or one occurence  of the preceding character / group
+\d = Matches any single digit from 0 to 9
+\w = Matches letters, digits and underscore only  - no spaces or special characters.
+\s = Matches any whitespace character such as space, tab or newline
+[A-Z] = Matches any one uppercase letter from A to Z
+[a -z] = Matches any one lowercase letter from a to z
+abc = Matches excat sequence of  characters abc ina string
+{n} = Matches exact sequence of the preceeding character or group
+{n,m} = is used when the number of repetitions must fall within a specific range
+| OR = allows matching one pattern OR another, and growing with () is highly recommended.
+
