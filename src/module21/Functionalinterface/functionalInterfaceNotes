@@ -1,0 +1,69 @@
+What is functional Interface?
+Functional Programming is a programming style where we write program using function without chnaging the data.
+Java8 introduced functional programming features to make java - shorter,cleaner, faster, modern.
+
+Functional interface: 
+	A functional interface contains exactly one abstract method, but can have any number of defeault or static methods.We need functional interface because 
+	lambda expressions work only with functional interfaces.
+	@FunctionalInterface annotation is optional but recommended.
+
+Predefined FUnctional Interface:
+	Runnable interface -> run() used in Thread
+	Comparable interface -> compareTo(Object o) used in collections
+	Comperator interface -> compare(Object o1, Object o2) used in collections
+	
+Anonymous class:
+	An anonymous class is a class without a name that you define and create (instantiate) in one step
+	Anonymous classes are useful when we need a class only once and dont want to create a separate named class file for example:
+		to override a method of an exixting class
+		to impement and interface
+
+Lambda Expressions:
+	Lambda expression is an anonymous function that provides implementation of a functional interface
+	A lambda expression is a short way to write a method without method name,without class, and without boilerplate code.
+	
+Syntax  of lambda Expression:
+	(parameters) -> {
+	//multiple statements
+	}
+Example: 
+	Fi obj = (a, b) -> {a+b};
+	
+forEach():
+	the forEach() method is used to iterate through elements if a collection or stream and perform an action on each element
+	syntax:
+	collection.forEach(element -> {
+	//action});
+
+Method Reference: It is just a shortcut for a lambda that only calls an existing method. If a lambda expression contains only one statement and that statement simply calls an existing method, then a method reference can be used instead of the lambda. Method reference works only when lambda directly calls one existing method.
+Syntax: ClassName: methodName
+
+F1 ref1 = (a,b) -> a+b;
+System.out.println(ref1.add(10,20));
+Instead of this we can sum Integer.sum() method, means we can call only method
+F2 ref2 = Integer:: sum
+System.out.println(ref2.add(10,30));
+
+Stream: 
+	Stream is a java8 feature used to process collection data in a functional way without using loops.
+	Stream was introduced in java 8
+	Stream does not store data
+	it works on collection data
+	Stream processes data one by one
+	Stream does not change original collection
+	
+Basic Stream Flow: collections - stream - operation - result
+	eg: List - stream() - filter() - forEach()
+
+Basic methods of stream:
+	Stream() - converts a collection into a stream so we can process data in a functional way.
+	filter() - selects elements in a stream into another form
+	map() - Transforms each element in the stream into another form
+	forEach() - perform an action on each element of the stream 
+	collect() - converts the processed stream back into a collection or another result
+	sorted() - sorts stream elements using natural odering (uses comparable)
+	sorted(comparator) - sorts stream elements using custom sorting logic (uses comparator)
+	
+
+   
+		
